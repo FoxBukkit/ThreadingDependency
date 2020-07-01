@@ -91,6 +91,12 @@
 	</build>
 	<dependencies>
     </dependencies>
+    <repositories>
+        <repository>
+            <id>foxelbox-repo</id>
+            <url>https://maven.pkg.github.com/foxelbox/packages</url>
+        </repository>
+    </repositories>
     <distributionManagement>
         <repository>
             <id>foxelbox-repo</id>
