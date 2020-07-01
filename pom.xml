@@ -73,6 +73,7 @@
                         <email>mriq91@gmail.com</email>
                     </properties>
                     <excludes>
+                        <exclude>settings.xml</exclude>
                         <exclude>**/README</exclude>
                         <exclude>src/test/resources/**</exclude>
                         <exclude>src/main/resources/**</exclude>
@@ -90,10 +91,10 @@
 	</build>
 	<dependencies>
     </dependencies>
-    <repositories>
+    <distributionManagement>
         <repository>
-            <id>foxelbox-repo</id>
-            <url>https://maven.doridian.net/repository/maven-snapshots/</url>
+            <id>foxelbox-threadingdependency-repo</id>
+            <url>https://maven.pkg.github.com/foxelbox/threadingdependency</url>
         </repository>
-    </repositories>
+    </distributionManagement>
 </project>
