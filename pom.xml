@@ -93,8 +93,8 @@
     </dependencies>
     <distributionManagement>
         <repository>
-            <id>foxelbox-threadingdependency-repo</id>
-            <url>https://maven.pkg.github.com/foxelbox/threadingdependency</url>
+            <id>foxelbox-repo</id>
+            <url>https://maven.pkg.github.com/foxelbox/packages</url>
         </repository>
     </distributionManagement>
 </project>
